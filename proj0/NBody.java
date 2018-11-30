@@ -1,5 +1,6 @@
 public class NBody{
 	
+	/** read universe radius from file */
 	public static double readRadius(String filename){
 		double radius = 0;
 		In in = new In(filename);
@@ -8,6 +9,7 @@ public class NBody{
 		return radius;
 	}
 	
+	/** read all planets parameters from file */
 	public static Planet[] readPlanets(String filename){
 		In in = new In(filename);
 		int numPlanet = in.readInt();

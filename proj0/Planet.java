@@ -9,6 +9,7 @@ public class Planet {
 	
 	public static final double G = 6.67 * Math.pow(10, -11);
 	
+	/** first constructor */
 	public Planet(double xP, double yP, double xV, double yV, double m, String img){
 		xxPos = xP;
 		yyPos = yP;
@@ -18,6 +19,7 @@ public class Planet {
 		imgFileName = img;
 	}
 	
+	/** second constructor */
 	public Planet(Planet p){
 		xxPos = p.xxPos;
 		yyPos = p.yyPos;
@@ -76,7 +78,7 @@ public class Planet {
 		return totalYForce;
 	}
 	
-	//update change in X component and Y component for the period dt
+	/** update change in X component and Y component for the period dt */
 	public void update(double dt,double fX,double fY){
 		double aX = fX/mass;
 		double aY = fY/mass;
@@ -86,7 +88,7 @@ public class Planet {
 		yyPos = yyPos + dt * yyVel;
 	}
 	
-		
+	/** draw the component on screen with input image at the x,y position. */
 	public void draw(){
 		StdDraw.picture(xxPos, yyPos, imgFileName);
 	}
