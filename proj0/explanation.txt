@@ -1,0 +1,35 @@
+Mark Range	Grade	Grade Point	Description
+85-100	A+	5.0	Excellent
+80-84	A	5.0	Excellent
+75-79	A-	4.5	Excellent
+70-74	B+	4.0	Very Good
+65-69	B	3.5	Very Good
+60-64	B-	3.0	Very Good
+55-59	C+	2.5	Good
+50-54	C	2.0	Satisfactory
+45-49	D+	1.5	Probationary Grade
+40-44	D	1.0	Probationary Grade
+0-39	F	0.0	Fail
+
+2.9.3.    The average grade point (known as Cumulative Average Point or CAP) will be calculated for the examinations taken by a candidate, weighted by the CAP value of each module. The final CAP of each candidate will include the grade point for the Project result, and the results of any retake examinations and substitute courses for failed basic electives. The formula for the CAP calculation is as below:
+CAP = Sum (module grade point * modular credits for the module)
+                                    ​Sum (modular credits)
+2.9.4.     Candidates are required to satisfy the academic standing rules presented in figure 3 below.
+Figure 3:          Academic Standing Rules
+Status of Candidate	Rule
+Warning	2.5  ≤ CAP < 3.0
+Probation	CAP < 3.0 for 2 consecutive semesters
+CAP < 2.5
+Termination from MTech and downgrade to the Graduate Diploma programme	CAP < 3.0 for 3 consecutive semesters
+CAP < 2.5 for 2 consecutive semesters  
+2.9.5.     Candidates whose CAP falls below 2.5 for two consecutive semesters or 3.0 for three consecutive semesters will have their MTech candidature terminated, and will be downgraded to the NUS Graduate Diploma in SE, KE or EBAC.
+2.9.6.     For candidates that have not been downgraded to the diploma, a warning letter will be issued for any semester in which their CAP falls below 3.0 (the CAP required for graduation) but is not lower than 2.5.
+2.9.7.     For candidates that have not been downgraded to the diploma, a probation letter will be issued for any semester in which their CAP:
+(1)           falls below 2.5; or
+
+(2)           falls below 3.0 for the second consecutive semester.
+
+2.9.8.     SE and KE candidates must achieve a CAP of at least 2.8 in the first 8 units (ie: the 4 core units and 8 basic electives) and be enrolled in the Project to be permitted to take the “Advanced Electives” (the final 3 electives).
+2.9.9.     EBAC candidates must achieve a CAP of at least 3.0 in the first 8 units (ie: the 4 core units and 8 basic electives) and be enrolled in the Project to be permitted to take the “Advanced Electives” (the final 3 electives).
+2.9.10.     A candidate must achieve a final CAP of at least 3.0 in all courses (ie: the 4 core units, 8 basic electives and 3 advanced electives), including the Project grade point, to be awarded the MTech degree.
+2.9.11.     Candidates that do not meet the criteria defined in paragraphs 2.9.3, 2.9.4 or 2.9.5 may be awarded the NUS Graduate Diploma in SE, KE or EBAC if they achieve a CAP of at least 2.25.
